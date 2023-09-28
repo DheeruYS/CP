@@ -1,4 +1,4 @@
-// TofFind if a number if prime or not
+// To find if a number is prime or not
 
 prime[2] = true;
 
