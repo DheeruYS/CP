@@ -1,3 +1,5 @@
+// Operation needs to be associative and commutative like + , * , AND , OR , XOR ..
+
 vector<ll> a(N);
 vector<ll> seg(4*N);
 
