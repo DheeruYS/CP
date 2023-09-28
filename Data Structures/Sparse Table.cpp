@@ -2,6 +2,10 @@
 // Doesnt work for : sum , XOR etc..
 // Time complexity of query : O(1)
 
+const ll K = 25;
+vector<ll> a(N);
+ll sparse[N][K+5];
+
 void build(ll n){
 
   for(ll i = 1; i <= n; i++) sparse[i][0] = a[i];
